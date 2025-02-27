@@ -61,10 +61,10 @@
 a{
     text-decoration: none;
 }
-.nav-item div:hover{
+/* .nav-item div:hover{
     transition: 0.8s;
     font-weight: bold;
-}
+} */
 
 /* .Projects:hover{
     transition: 0.2s;
