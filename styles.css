@@ -91,18 +91,20 @@ a{
 }
 
 .faded-text{
+    position: absolute;
     user-select: none;
-     font-size: 4rem;
+     font-size: 5rem;
      color: rgb(231,231,231);
      
      bottom: -16%;
-     left: -5%;
+     left: 2%;
      font-weight: bold;
      transition: all 3s;
 
 }
 
 .hero-section-left{
+    
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -127,7 +129,7 @@ a{
 
 .btn-pink{
     border-radius: 10px;
-    background-color: #e84949;
+    background-color: #3d56c2;
     width: fit-content;
     color: white;
     padding: 0.8rem 2.3rem;
@@ -145,7 +147,7 @@ a{
     content: "";
     position: absolute;
     border-radius: 10px;
-    background-color: #e7f75e;
+    background-color: #ffffff;
     top: 0px;
     left: 0;
     right: 0;
@@ -161,7 +163,7 @@ a{
   }
   
   .btn-pink:hover {
-    border: solid 3px #e84949;
+    border: solid 3px #533dd3;
     color: black;
   }
 
@@ -202,5 +204,112 @@ a{
     }
   }
 
+  .icon-dots{
+        z-index: 9;
+        bottom: -1rem;
+        right: 0;
+        animation-name: dotsanimation;
+        animation-duration: 0.3s;
+        animation-iteration-count: infinite;
 
+  }
+
+  @keyframes dotsanimation {
+    0%{
+        transform: translateY(0px);
+
+
+    }
+    50%{
+        transform: translateY(-15px);
+
+    }
+    100%{
+        transform: translateY(0px);
+
+    }
+    
+  }
+
+  .icon-cube{
+    z-index: 9;
+    top: -0.8em;
+    right: 1em;
+    animation-name: rotatecube;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+
+
+  }
+  @keyframes rotatecube {
+    0%{
+
+        transform: rotatey(0deg) translateY(0px);
+    }
+    50%{
+        transform: rotatey(180deg) translateY(-12px);
+    }
+    100%{
+        transform: rotatey(360deg) translateY(0px);
+    }
+  }
+
+  .icon-circle{
+    z-index: 9;
+    left: 0;
+    bottom: 0;
+    animation-name: shakeeffect;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+  }
+
+  @keyframes shakeeffect {
+    0%{
+        left: 0;
+        bottom: 0;
+
+    }
+    50%{
+        left: 5%;
+        bottom: 10%;
+    }
+    100%{
+        left: 0;
+        bottom: 0;
+
+    }
+    
+  }
+  .icon-zigzag{
+    z-index: 9;
+    top: 1.5em;
+    left: -0.3em;
+    animation-name: zigzaganimation;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+
+  }
+  @keyframes zigzaganimation {
+    
+    50%{
+        left: 5%;
+        bottom: 10%;
+    }  
+  }
+
+  .icon-plus{
+    z-index: 9;
+    top: -0.8rem;
+    left: 50%;
+    animation: plusanimation 3s ease-in infinite;
+  }
+
+  @keyframes plusanimation {
+    
+    50%{
+        left: 3%;
+        bottom: 48%;
+    }
+  }
   
