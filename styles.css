@@ -382,7 +382,13 @@ a{
     font-weight: 600;
     color: white;
     z-index: 10;
+    display: none;
   }
+  
+   .project-card:hover .project-number{
+    display: block;
+   }
+
   .leftNumber{
     right: -40px;
     top: -45px;
@@ -405,13 +411,13 @@ a{
   }
 
   .rightProjectContent{
-    right: 10%;
+    right: 25%;
   }
 
   .project-skills-container{
     width: 60%;
     display: flex;
-    gap: 5%;
+    gap: 10px;
     flex-wrap: wrap;
 
   }
@@ -440,4 +446,24 @@ a{
   }
   .icon:hover{
     color: #3d56c2;
+  }
+
+  .project-card:hover .project-content{
+    transform: scale(1.1);
+
+  }
+
+  #project1{
+    background-image: url(images/projects/Project1.png);
+  }
+  #project2{
+    margin-left: 120px;
+    background-image: url(images/projects/Project2.png);
+  }
+  #project3{
+    background-image: url(images/projects/Project3.png);
+  }
+  #project4{
+    margin-left: 120px;
+    background-image: url(images/projects/Project4.png);
   }
