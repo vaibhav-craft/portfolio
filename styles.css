@@ -5,7 +5,7 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
     font-family: "Be Vietnam Pro", serif;
     scroll-behavior: smooth;
 }
@@ -499,7 +499,7 @@ a{
     bottom: -34.5%;
     right: -25%;
     user-select: none;
-    /* overflow-y: hidden; */
+    overflow-y: hidden;
 
   }
   .blobStyle{
@@ -526,3 +526,22 @@ a{
     transform: scale(1.2);
 
   }
+  .skill-Heading{
+    color: #e84949;
+    font-size: 50px;
+    font-style: bold;
+
+  }
+
+.caps{
+    font-size: 90px;
+}
+
+.skill-subHeading{
+    margin-top: 1rem;
+    width: 85%;
+    text-align: justify;
+}
+.skill-subHeading p{
+    margin: 15px 0;
+}
