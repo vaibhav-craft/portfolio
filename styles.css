@@ -545,3 +545,8 @@ a{
 .skill-subHeading p{
     margin: 15px 0;
 }
+
+.contactus-form-container{
+  width: 100%;
+  background-color: rgb(231,231,231);
+}
