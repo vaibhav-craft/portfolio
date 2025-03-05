@@ -80,6 +80,7 @@ a{
 } */
 
 .hero-section{
+  
     position: relative;
     display: flex;
     justify-content: center;
@@ -313,7 +314,7 @@ a{
     }
   }
   .project-section{
-    background-color: rgb(231,231,231);
+    background-color: rgb(231, 231, 231);
     margin-top: 4rem;
   }
 
